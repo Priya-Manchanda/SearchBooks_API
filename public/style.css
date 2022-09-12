@@ -1,0 +1,41 @@
+.container {
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+.list {
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  font-weight: bold;
+  font-family: Mukta;
+  text-align: left;
+}
+.input-field {
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #333;
+  font-size: 20px;
+}
+.list-item {
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10%;
+  width: 45%;
+}
+@media screen and(max-width:713px) {
+  body{
+    overflow-x: hidden;
+  }
+  .list {
+    margin-left: -1.5rem;
+  }
+  .list-item {
+    width: 100%;
+  }
+}
