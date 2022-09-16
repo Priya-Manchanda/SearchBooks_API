@@ -1,3 +1,6 @@
+body{
+  background-image: url('https://t3.ftcdn.net/jpg/02/90/46/84/360_F_290468474_6yJ9eBPW2wevarR9cbXN87TCFJDVVuAR.jpg');
+}
 .container {
   width: 90%;
   margin: auto;
@@ -25,7 +28,7 @@
   background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
   padding: 10px;
   margin: 10px;
-  border-radius: 10%;
+  /* border-radius: 10%; */
   width: 45%;
 }
 @media screen and(max-width:713px) {
